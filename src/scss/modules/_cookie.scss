@@ -4,6 +4,10 @@
   box-shadow: $box-shadow;
   padding: 1rem;
   color: $black;
+  position: sticky;
+  bottom: 12;
+  left: 66%;
+  max-width: 33%;
 
   @media screen and (max-width: $sm) {
     right: 0.75rem;
